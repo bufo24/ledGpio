@@ -12,4 +12,4 @@ while True:
    else:
       os.system("sudo sh -c 'echo 1 > /sys/class/leds/led1/brightness'")
       print("on")
-   sleep(0.5)
+   sleep(0.01)
